@@ -21,7 +21,7 @@ import static org.mockito.Mockito.*;
 import java.util.ArrayList;
 
 @RunWith(RobolectricGradleTestRunner.class)
-@Config(constants = BuildConfig.class, sdk = 24, manifest = "/src/main/AndroidManifest.xml")
+@Config(constants = BuildConfig.class, sdk = 21, manifest = "/src/main/AndroidManifest.xml")
 public class MainModelTest {
 
 
